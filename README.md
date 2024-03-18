@@ -1,8 +1,5 @@
-# React + Vite
+# [Título del Sitio Web]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Título del Sitio Web] es un sitio web dedicado a conectar a la Universidad Metropolitana
+y a sus estudiantes de manera íntegra y consistente, creando un nexo entre las agrupaciones
+estudiantiles y la comunidad general de la institución.
