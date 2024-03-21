@@ -1,0 +1,141 @@
+.HeaderGroup{
+    position: relative;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/Recursos/Recursos Privados/UNIMET-Foto-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.HeaderGroup::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.40)
+}
+
+.TitleContainer{
+    min-width: 50%;
+    max-width: 70%;
+    margin: auto;
+    z-index: 3;
+}
+
+.MainTitle{
+    font-size: 3em;
+    text-align: center;
+    text-align-last: center;
+}
+
+.HomeSection1{
+    position: relative;
+    min-height: 40vh;
+    max-height: fit-content;
+
+    border: 0px;
+    border-top: 4vh;
+    border-bottom: 4vh;
+    border-style: solid;
+    border-color: orange;
+
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    background-image: url('/Recursos/Recursos Privados/UNIMET-Foto-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.HomeSection1::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.40)
+}
+
+.Section1-Pargraph{
+    margin: 0;
+    padding: 1vh;
+
+    font-size: 1.5em;
+
+    min-height: fit-content;
+    min-width: 40vw;
+    max-width: 50vw;
+
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+
+    background-color: aquamarine;
+    border-radius: 1vh;
+}
+
+.Section1-Title{
+    margin: 0;
+    padding: 1vh;
+    width: fit-content;
+
+    font-size: 2em;
+
+    background-color: orange;
+    border-radius: 1vh;
+}
+
+.HomeSection1-Struct1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    z-index: 3;
+}
+
+.HomeSection1-Title1{
+    width: fit-content;
+    height: fit-content;
+
+    margin: 1vh;
+
+    z-index: inherit;
+}
+
+.HomeSection1-Content{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 3vw;
+
+    z-index: inherit;
+}
+
+.HomeSection1-Struct2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    z-index: 3;
+}
+
+.HomeSection1-Title2{
+    width: fit-content;
+    height: fit-content;
+
+    margin: 1vh;
+
+    z-index: inherit;
+}
+
+.HomeSection1-Content2{
+    height: fit-content;
+    width: fit-content;
+    margin-right: 3vw;
+
+    z-index: inherit;
+}
