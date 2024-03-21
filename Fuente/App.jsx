@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from '../Recursos/Recursos Privados/react.svg'
-import viteLogo from '../Recursos/Recursos Públicos/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import NavigationBar from './Componentes/NavigationBar.jsx';
+import LandingPage from './Páginas/LandingPage.jsx';
+// import SearchPage from 'SearchPage';
+// import ClubDetails from 'ClubDetails';
+// import Login from 'Login';
+// import Register from 'Register';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<Router>
+			<NavigationBar/>
+			<Routes>
+				<Route path="/" element={<LandingPage />} />
+			</Routes>
+		</Router>
+	);
 }
+
+// Una vez que las páginas estén hechas, reincorporar las Rutas de Nicola
+/* 				<Route path="/Search" element={<SearchPage />} />
+				<Route path="/Club/:id" element={<ClubDetails />} />
+				<Route path="/Login" element={<Login />} />
+				<Route path="/Register" element={<Register />} /> 
+*/
 
 export default App

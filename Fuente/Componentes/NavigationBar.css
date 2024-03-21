@@ -1,0 +1,180 @@
+.CoreNavBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: fixed;
+    min-height: 10vh;
+    max-height: fit-content;
+    width: 100%;
+
+    background-color: orange;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    z-index: 8;
+}
+
+.MenuController{
+    display: none;
+    padding: 2.5vh 0;
+    flex-direction: column;
+    width: 5vw;
+    min-width: 6vh;
+    height: 5vh;
+}
+
+.graphicBars{
+    margin-bottom: 1vh;
+    width: 100%;
+    height: 1vh;
+    border-radius: 15px;
+    background-color: white;
+}
+.graphicBarsEnd{
+    width: 100%;
+    height: 1vh;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.Inexorables{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+}
+.Icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.UNIMET-Logo{
+    width: 60%;
+}
+.Page-Logo{
+    width: 40%;
+}
+
+
+.NavigationDisplay{
+    max-height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+}
+.LinksAndDirections{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.StandardLink {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.StandardLink div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.StandardLink div:hover{
+    color: orange;
+    background-color: white;
+}
+.StandardLink div p {
+    margin: 0;
+}
+
+
+.MobileOnlyLink{
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.MobileOnlyLink div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.MobileOnlyLink div:hover{
+    color: orange;
+    background-color: white;
+}
+
+.DesktopViewProfile{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 25vw;
+    background-color: white;
+}
+.ButtonContainer{
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+}
+.DesktopProfileLink{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 3px;
+    border-style: solid;
+    border-color: orange;
+    background-color: orange;
+    border-radius: 15px;
+
+    margin: auto;
+    padding: 3% 7%;
+}
+.DesktopProfileLink:hover{
+    color: orange;
+    background-color: white;
+}
+.ProfilePic{
+    width: 40%;
+}
+
+@media (width <= 1060px) {
+    .Inexorables{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .Icons{
+        width: 35vw;
+    }
+    .MenuController{
+        margin: 0 2%;
+        display: flex;
+    }
+    .DesktopViewProfile{
+        display: none;
+    }
+    .NavigationDisplay{
+        display: none;
+        width: 100%;
+    }
+    .LinksAndDirections{
+        flex-direction: column;
+    }
+    .MobileOnlyLink{
+        display: contents;
+    }
+}
