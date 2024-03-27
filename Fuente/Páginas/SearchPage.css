@@ -1,0 +1,51 @@
+.SearchGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 12vh;
+    width: 100vw;
+}
+.Selectors{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.SearchBar{
+    display: flex;
+    flex-direction: row;
+}
+.BarGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchField{
+    width: 40vw;
+    min-height: 20px;
+    max-height: 2vh;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.SelectorBody{
+    background-color: blue;
+    color: white;
+
+    padding: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+}
+.GenericSelector{
+    background-color: blue;
+    color: white;
+    border: 0;
+}

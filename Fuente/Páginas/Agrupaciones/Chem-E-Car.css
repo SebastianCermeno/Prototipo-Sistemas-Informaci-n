@@ -1,0 +1,105 @@
+.ChemCarTitleGroup{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/Recursos/Recursos Privados/Contenido de Agrupaciones/CHEM-E-Car/Chem-E-Car-Banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ChemCarTitleGroup::before{
+    margin-top: 17px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 193, 162, 0.50)
+}
+.TitleElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.GroupIcon{
+    max-width: 40vw;
+    max-height: 40vw;
+
+    border-radius: 25px;
+}
+
+.ChemCarContentGroup{
+    position: relative;
+    min-height: 40vh;
+    max-height: fit-content;
+
+    border: 0px;
+    border-top: 4vh;
+    border-style: solid;
+    border-color: lightgray;
+
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    background-image: url('/Recursos/Recursos Privados/Contenido de Agrupaciones/CHEM-E-Car/Carro Chem-E-Car.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ChemCarContentGroup::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 246, 171, 0.1);
+}
+.ChemCarSection1-Title{
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(40, 103, 95);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    box-shadow: rgba(255, 254, 254, 0.55) 0px 0px 40px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.ChemCarSection1-Pargraph{
+    font-size: 1.5rem;
+    background-color: rgb(101, 246, 171);
+    max-width: 50vw;
+    height: fit-content;
+    padding: 15px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(40, 103, 95);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ChemCarSection1-Struct1{
+    position: relative;
+    z-index: 4;
+}
+.ChemCarSection1-Struct2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 4;
+}

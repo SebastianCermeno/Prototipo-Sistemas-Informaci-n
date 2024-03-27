@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
-import '../../Fuente/Componentes/NavigationBar.css'
+import './NavigationBar.css'
 
 function NavigationBar(){
     const [menuOpen, setMenuOpen] = useState(false);
@@ -54,7 +54,7 @@ function NavigationBar(){
 
             <div id="SwapTarget" className="NavigationDisplay">
                 <div className="LinksAndDirections">
-                    <Link className="StandardLink">
+                    <Link className="StandardLink" to='/'>
                         <div>
                             <p>
                                 Página de Inicio
@@ -66,7 +66,7 @@ function NavigationBar(){
                             Sobre Nosotros
                         </div>
                     </Link>
-                    <Link className="StandardLink">
+                    <Link className="StandardLink" to='/Search'>
                         <div>
                             Encontrar Agrupaciones
                         </div>

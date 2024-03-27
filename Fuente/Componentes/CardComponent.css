@@ -1,0 +1,43 @@
+.CardWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.CardIcon{
+    width: 15vh;
+    height: 15vh;
+
+    background-color: orangered;
+    border: 6px;
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.IconData{
+    width: 80%;
+    height: 80%;
+}
+
+.CardText{
+    width: 60vw;
+    height: 15vh;
+
+    background-color: orange;
+    border: 6px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.CardTitle{
+    margin-left: 5px;
+}
+.CardContent{
+    margin-left: 15px;
+}
