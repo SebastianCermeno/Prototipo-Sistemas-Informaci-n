@@ -1,15 +1,14 @@
-import CardComponent from "./CardComponent"
+import CardComponent from './CardComponent';
 
-function CardDeck({ groupArray }){
-    return (
-        <>
-            <div>
-                {groupArray.map((group) => (
-                    <CardComponent prompts={group}></CardComponent>
-                    )
-                )}
-            </div>
-        </>
-    )
+function CardDeck({ groupArray }) {
+	return (
+		<>
+			<div>
+				{groupArray.map((group) => (
+					<CardComponent prompts={group}></CardComponent>
+				))}
+			</div>
+		</>
+	);
 }
-export default CardDeck
+export default CardDeck;
