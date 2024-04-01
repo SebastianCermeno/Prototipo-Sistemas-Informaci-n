@@ -5,7 +5,6 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { collection, getDocs } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './styles/Register.css';
 import SignUpGoogle from './SingUpGoogle';
 function Register() {
 	const [email, setEmail] = useState('');
